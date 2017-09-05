@@ -1,9 +1,11 @@
 // Attribution information
 
 public class HashMap<E> {
-  
+    
+    private Object[] HashMap;
+    
     public HashMap (final int size) {
-        //set state
+        HashMap = new Object[size];
     }
     
     public constructor (final int size) {
