@@ -4,8 +4,10 @@ public class HashMap<E> {
   
     public HashMap (final int size) {
     }
-  
     
+    public constructor (final int size) {
+        return new HashMap(size);
+    }
    
     public boolean set (String key, Object value) {
     }
