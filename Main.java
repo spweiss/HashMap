@@ -3,6 +3,7 @@
 public class HashMap<E> {
   
     public HashMap (final int size) {
+        //set state
     }
     
     public constructor (final int size) {
