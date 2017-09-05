@@ -1,9 +1,11 @@
 // Attribution information
 
-public class HashMap {
+public class HashMap<E> {
   
     public HashMap (final int size) {
     }
+  
+    
    
     public boolean set (String key, Object value) {
     }
