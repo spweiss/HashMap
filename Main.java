@@ -23,6 +23,7 @@ public class HashMap<E> {
             int hashcode = key.hashCode();
             int index = hashcode % capacity;
             hashMap[index] = value;
+            volume++;
             return true;
         }
     }
@@ -38,10 +39,14 @@ public class HashMap<E> {
         int index = hashcode % capacity;
         E target = hashMap[index];
         hashMap[index] = null;
+        if (target != null) {
+            volume--;
+        }
         return target;
     }
 
     public final float load () {
+        return (float) volume / (float) capacity;
     }
   
 }
