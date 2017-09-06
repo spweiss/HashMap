@@ -2,6 +2,8 @@
 
 public class HashMap<E> {
     
+    private int volume;
+    private int capacity;
     private Object[] HashMap;
     
     public HashMap (final int size) {
@@ -9,10 +11,17 @@ public class HashMap<E> {
     }
     
     public constructor (final int size) {
+        volume = 0;
+        capacity = size;
         return new HashMap(size);
     }
    
-    public boolean set (String key, Object value) {
+    public boolean set (final String key, final E value) {
+        if (volume >=  capacity) {
+            return false;
+        } else {
+            int hashcode = key.hashCode();
+            int index = hashcode % capacity;
     }
 
     public void get (String key) {
