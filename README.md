@@ -4,10 +4,10 @@ A fixed-size hash map using primitive types to associate string keys with object
 ## Time Complexities
 The average and worst-case time complexities of the top-level operations are:
 
-| Case          | Constructor   | Set   | Get   |
-| ------------- |:-------------:|:-----:|:-----:|
-| Average       | O(1)          | $1600 | $1600 |
-| Worst         | O(n)          |   $12 |   $12 |
+| Case          | Constructor   | Set   | Get   | load  |
+| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| Average       | O(1)          | O(1)  | O(1)  | O(1)  |
+| Worst         | O(n)          | O(n)  | O(n)  | O(1)  |
 
 Includes implementations for the following operations:
 
