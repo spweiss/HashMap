@@ -22,6 +22,7 @@ Where the worst case runtime occurs when all n elements collide into the same bu
 
 * The method `set(String key, E value)` returns `true` if the item was added successfully and `false` if it was not. Thus, false is returned if the number of elements that the HashMap already contains is equal to the user-defined maximum when `set` is called or if the item to be added is `null`.
 * HashMap has an underlying array of `LinkedList`s that are used to handle key collisions based on Java's `hashCode()` method and the size of the HashMap defined by the user.
+* The method `stringLL()` generates a string representation of a `LinkedList` and is included for testing and debugging purposes.
 
 The HashMap includes implementations for the following operations:
 
