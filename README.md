@@ -6,7 +6,7 @@ The average and worst-case time complexities of the top-level operations are:
 
 | Case          | Constructor   | Set   | Get   | Load  |
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
-| Average       | O(1)          | O(1)  | O(1)  | O(1)  |
+| Average       | O(n)          | O(1)  | O(1)  | O(1)  |
 | Worst         | O(n)          | O(n)  | O(n)  | O(1)  |
 
 Where the worst case runtime occurs when all n elements collide into the same bucket in the HashMap and the data structure operates as a de facto LinkedList.
