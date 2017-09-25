@@ -20,7 +20,10 @@ Where the worst case runtime occurs when all n elements collide into the same bu
 
 ## Implementation
 
-Includes implementations for the following operations:
+* The
+* The
+
+The HashMap includes implementations for the following operations:
 
 **constructor(size):** return an instance of the class with pre-allocated space for the given number of objects.
 
