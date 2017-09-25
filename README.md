@@ -1,6 +1,13 @@
 # HashMap
 A fixed-size hash map using primitive types to associate string keys with object references
 
+## Usage Information
+`HashMap.java` and `HashMapTest.java` can be used by running the following in command line:
+
+1. Run `cd /YourDirectory/` on the directory where the `HashMap.java` and `HashMapTest.java` are stored.
+2. Compile HashMap by running `javac HashMap.java` then` javac HashMapTest.java`.
+2. Execute the tests by running `java -ea HashMapTest`.
+
 ## Time Complexities
 The average and worst-case time complexities of the top-level operations are:
 
