@@ -9,6 +9,8 @@ The average and worst-case time complexities of the top-level operations are:
 | Average       | O(1)          | O(1)  | O(1)  | O(1)  |
 | Worst         | O(n)          | O(n)  | O(n)  | O(1)  |
 
+Where the worst case runtime occurs when all n elements collide into the same bucket.
+
 Includes implementations for the following operations:
 
 **constructor(size):** return an instance of the class with pre-allocated space for the given number of objects.
